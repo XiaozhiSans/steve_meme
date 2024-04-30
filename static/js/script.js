@@ -1,19 +1,18 @@
 var LANGUAGES = {
-    "_": { defaultLanguage: "en", defaultVOLanguage: "ja", defaultSpeed: 20, defaultRandmo: "off" },
+    "_": { defaultLanguage: "en", defaultVOLanguage: "en", defaultSpeed: 40, defaultRandmo: "on" },
     "en": {
         audioList: [
             // TODO audio random weight
-            "audio/en/en_1.mp3",
-            "audio/en/en_2.mp3",
-            "audio/en/en_3.mp3"
+            "audio/en/loow.mp3",
+            "audio/en/wool.mp3"
         ],
         texts: {
-            "page-title": "Welcome to herta kuru~",
-            "doc-title": "Kuru Kuru~",
-            "page-descriptions": "The website for Herta, the <del>annoying</del> cutest genius Honkai: Star Rail character out there.",
-            "counter-descriptions": ["The kuru~ has been squished for", "Herta has been kuru~ed for"],
+            "page-title": "Welcome to steve meme",
+            "doc-title": "wool~ wool~ wool~",
+            "page-descriptions": "The website for Steve, the <del>annoying</del> smartest genius Minecraft character out there.",
+            "counter-descriptions": ["The wool~ has been squished for", "Steve has been wool~ed for"],
             "counter-unit": "times",
-            "counter-button": ["Squish the kuru~!", "Kuru kuru~!"],
+            "counter-button": ["wool~!", "loow~!"],
             "access-via-pages": "You're currently accessing via GitHub Pages. For users in China (Mainland) or some other regions, click <a href='https://herta.ft2.ltd/'>here to access the mirror on Netlify</a>. ",
             "access-via-mirror": "Congratulations! You are using a mirror site, which should speed up access within China (Mainland) and some regions. Click here to <a href='https://duiqt.github.io/herta_kuru/'>visit the source site on GitHub Pages</a>.",
             "show-credits-text": "Show Credits",
@@ -34,22 +33,19 @@ var LANGUAGES = {
             "CREDITS:localization:Indonesian": "Indonesian Localization Contributor",
             "CREDITS:inspiration": "Inspiration"
         },
-        cardImage: "img/card_en.jpg"
+        cardImage: "img/steve.gif"
     }, "cn": {
         audioList: [
-            "audio/cn/gululu.mp3",
-            "audio/cn/gururu.mp3",
-            "audio/cn/转圈圈.mp3",
-            "audio/cn/转圈圈咯.mp3",
-            "audio/cn/要坏掉了.mp3"
+            "audio/en/loow.mp3",
+            "audio/en/wool.mp3"
         ],
         texts: {
-            "page-title": "黑塔转圈圈",
-            "doc-title": "咕噜噜~",
-            "page-descriptions": "给黑塔酱写的小网站，对，就是那个<del>烦人的</del>最可爱的《崩坏：星穹铁道》角色！",
-            "counter-descriptions": ["黑塔已经咕噜噜~了", "黑塔已经转了"],
-            "counter-unit": ["次", "次圈圈"],
-            "counter-button": ["转圈圈~", "咕噜噜！"],
+            "page-title": "唔哦",
+            "doc-title": "唔哦~",
+            "page-descriptions": "给史蒂夫写的小网站，对，就是那个<del>烦人的</del>最聪明的《Minecraft》角色！",
+            "counter-descriptions": ["史蒂夫已经唔哦~了", "史蒂夫已经承受了"],
+            "counter-unit": ["次", "次伤害"],
+            "counter-button": ["唔哦~", "哦唔~"],
             "access-via-pages": "您目前是通过 GitHub Pages 访问。对于中国大陆或其他一些地区的用户，请<a href='https://herta.ft2.ltd/'>单击此处访问 Netlify 上的镜像</a>。",
             "access-via-mirror": "恭喜！你正在使用镜像站，这应当会加速在中国大陆及部分地区境内的访问。点此<a href='https://duiqt.github.io/herta_kuru/'>访问 GitHub Pages 上的源站</a>。",
             "show-credits-text": "查看感谢页",
@@ -71,22 +67,19 @@ var LANGUAGES = {
             "CREDITS:inspiration": "灵感来源"
 
         },
-        cardImage: "img/card_cn.jpg"
+        cardImage: "img/steve.gif"
     }, "zh-tw": {
         audioList: [
-            "audio/cn/gululu.mp3",
-            "audio/cn/gururu.mp3",
-            "audio/cn/转圈圈.mp3",
-            "audio/cn/转圈圈咯.mp3",
-            "audio/cn/要坏掉了.mp3"
+            "audio/en/loow.mp3",
+            "audio/en/wool.mp3"
         ],
         texts: {
-            "page-title": "* 黑塔轉圈圈 ✩‧₊˚",
-            "doc-title": "咕嚕咕嚕～",
-            "page-descriptions": "致敬全宇宙超級無敵絕頂聰明黑塔醬的小網站<br>沒錯就是那位惹人愛的<del>很煩的</del>《崩壞：星穹鐵道》角色！",
-            "counter-descriptions": ["黑塔已經咕嚕咕嚕了", "黑塔已經轉了"],
-            "counter-unit": ["次", "次圈圈"],
-            "counter-button": ["* 轉圈圈 ✩‧₊˚", "* 咕嚕咕嚕 ✩‧₊˚"],
+            "page-title": "唔噢",
+            "doc-title": "唔噢～",
+            "page-descriptions": "致敬全宇宙超級無敵絕頂聰明史蒂夫的小網站<br>沒錯就是那位惹人愛的<del>很煩的</del>《當個創世神》角色！",
+            "counter-descriptions": ["史蒂夫受擊了", "史蒂夫已經唔噢了"],
+            "counter-unit": ["次", "次"],
+            "counter-button": ["唔噢～", "噢唔～"],
             "access-via-pages": "你目前正在透過 GitHub Pages 存取。至於從中國大陸和其他區域來的使用者，請點擊此處 <a href='https://herta.ft2.ltd/'> 訪問 Netlify 上的鏡像網站</a>。",
             "access-via-mirror": "你目前正在使用鏡像網站，若是從中國大陸和其他區域來的存取，或多或少會變流暢。請點擊此處 <a href='https://duiqt.github.io/herta_kuru/'> 訪問 GitHub Pages 上的原始網站</a>。",
             "show-credits-text": "顯示致謝名單",
@@ -109,12 +102,11 @@ var LANGUAGES = {
             "CREDITS:localization:Indonesian": "印尼在地化貢獻者",
             "CREDITS:inspiration": "靈感來源"
         },
-        cardImage: "img/card_en.jpg"
+        cardImage: "img/steve.gif"
     }, "ja": {
         audioList: [
-            "audio/ja/kuruto.mp3",
-            "audio/ja/kuru1.mp3",
-            "audio/ja/kuru2.mp3",
+            "audio/en/loow.mp3",
+            "audio/en/wool.mp3"
         ],
         texts: {
             "page-title": "ヘルタクルへようこそ~",
@@ -134,14 +126,13 @@ var LANGUAGES = {
             "dialogs-close": "Close",
             "dialogs-credits-title": "Credits"
         },
-        cardImage: "img/card_ja.jpg"
+        cardImage: "img/steve.gif"
     },
     "kr": {
         audioList: [
             // TODO audio random weight
-            "audio/kr/kr_1.mp3",
-            "audio/kr/kr_2.mp3",
-            "audio/kr/kr_3.mp3"
+            "audio/en/loow.mp3",
+            "audio/en/wool.mp3"
         ],
         texts: {
             "page-title": "빙글빙글 헤르타에 오신걸 환영합니다~",
@@ -434,8 +425,8 @@ const progress = [0, 1];
 
 
     // try caching the hertaa1.gif and hertaa2.gif images by calling the tryCacheUrl function
-    cacheStaticObj("img/hertaa1.gif");
-    cacheStaticObj("img/hertaa2.gif");
+    cacheStaticObj("img/steve.gif");
+    // cacheStaticObj("img/hertaa2.gif");
 
     // Define a function that takes an array as an argument and returns a random item from the array
     function randomChoice(myArr) {
@@ -481,10 +472,10 @@ const progress = [0, 1];
 
     function animateHerta() {
         let id = null;
-        const random = Math.floor(Math.random() * 2) + 1;
+        // const random = Math.floor(Math.random() * 2) + 1;
         const elem = document.createElement("img");
         let RunSpeed = Math.floor(current_speed);
-        elem.src = cacheStaticObj(`img/hertaa${random}.gif`);
+        elem.src = cacheStaticObj("img/steve.gif");
         elem.style.position = "absolute";
         elem.style.right = "-500px";
         elem.style.top = counterButton.getClientRects()[0].bottom + scrollY - 430 + "px"
